@@ -1,7 +1,6 @@
 import { FC } from "react";
 import { IProduct } from "../../interfaces";
-import { Card, CardActionArea, CardMedia, Grid } from '@mui/material';
-import { initialData } from "../../database/products";
+import { Grid } from '@mui/material';
 import { ProductCard } from "./ProductCard";
 
 interface Props {
